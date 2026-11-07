@@ -1,5 +1,5 @@
 import random
-
+random.seed(42)
 def schaetze_pi(anzahl_punkte):
     punkte_im_kreis = 0
     for _ in range(anzahl_punkte):
